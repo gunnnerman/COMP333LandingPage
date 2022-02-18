@@ -1,0 +1,64 @@
+/*
+    COMP 333: Software Engineering
+    Gunn Jungpaibul
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Raleway:wght@100;400&display=swap');
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, ul, li {
+    vertical-align:baseline;
+    background:transparent;
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+}
+
+body {
+    line-height:1;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+#pagetitle {
+    font-family: 'Raleway Dots', cursive;
+    font-size: 100px;
+    color: #F4ECDB;
+}
+
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #95686C;
+  }
+  
+li {
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: #F4ECDB;
+    text-align: center;
+    padding: 18px;
+    text-decoration: none;
+}
+  
+li a:hover {
+    background-color: #E7D4B8;
+  }
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
