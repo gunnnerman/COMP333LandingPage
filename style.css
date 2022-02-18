@@ -35,6 +35,10 @@ h1 {
     padding: 18px;
 }
 
+p {
+    padding:18px;
+}
+
 .list ul {
     list-style-type: circle;
     overflow: hidden;
