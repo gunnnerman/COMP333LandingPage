@@ -21,6 +21,7 @@ body {
 
 body {
     font-family: 'Raleway', sans-serif;
+    background-color: #B89AA0;
 }
 
 #pagetitle {
@@ -29,17 +30,27 @@ body {
     color: #F4ECDB;
 }
 
-ul {
-    list-style-type: none;
+h1 {
+    color:#F4ECDB;
+}
+
+.list ul {
+    list-style-type: circle;
     overflow: hidden;
+    padding: 25px;
+}
+
+.navbar ul {
+    list-style-type: none;
     background-color: #95686C;
-  }
+    overflow: hidden;
+}
   
-li {
+.navbar li {
     float: left;
 }
   
-li a {
+.navbar li a {
     display: block;
     color: #F4ECDB;
     text-align: center;
@@ -47,18 +58,27 @@ li a {
     text-decoration: none;
 }
   
-li a:hover {
+.navbar li a:hover {
     background-color: #E7D4B8;
-  }
+}
 
 .container {
     position: relative;
     text-align: center;
-  }
+}
   
-  .center {
+.center {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
+
+.belowcenter {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#F4ECDB;
+    font-size: small;
+}
